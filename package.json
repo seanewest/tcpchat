@@ -1,0 +1,23 @@
+{
+  "name": "tcpchat",
+  "version": "1.0.0",
+  "description": "#### Server *This will listen on port 3000 by default*",
+  "main": "client.back.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanewest/tcpchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanewest/tcpchat/issues"
+  },
+  "homepage": "https://github.com/seanewest/tcpchat",
+  "dependencies": {
+    "node-notifier": "^4.0.2"
+  }
+}
