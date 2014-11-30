@@ -8,8 +8,8 @@ node server.js
 ```
 
 #### Client
-*This will connect to localhost on 3000 by default. Change the ```ip``` variable to a remote server ip address to connect to that chat server*
+*This will connect to localhost on 3000 by default. You can pass as an argument an ip address or hostname to connect to a remote chat server*
 
 ```
-node client.js
+node client.js [hostname]
 ```
