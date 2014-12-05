@@ -8,7 +8,7 @@ server.on('connection', function(connection) {
   });
 
   process.stdin.on('data', function (data) {
-    connection.write(data)
+    connection.write(data);
   });
 })
 
